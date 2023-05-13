@@ -1,0 +1,18 @@
+#Salir{
+    background-color: yellow;
+    color: red;
+}
+
+body{
+    background-color: red;
+}
+
+#Añadir_sala{
+    background-color: yellow;
+    color: red;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+}

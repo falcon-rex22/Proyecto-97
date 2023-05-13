@@ -1,0 +1,24 @@
+user_name{
+    color: aquamarine;
+}
+
+html{
+    background-color: lightblue;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+}
+
+#Titulo{
+    color: red;
+    background-color: yellow;
+    width: 150px;
+    font-size: medium;
+}
+
+#boton_inicio{
+    color: red;
+    background-color: yellow;
+}

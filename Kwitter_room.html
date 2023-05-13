@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Kwitter_room.css">
+    <title>Document</title>
+</head>
+<body>
+    <button id="Salir" onclick="">Salir</button>
+    <center>
+    <h4 id="Titulo">Flash chat</h4>
+    <img src="https://files.cults3d.com/uploaders/13073908/illustration-file/a905a545-aeed-41e3-9dac-9100cf208c69/Flash_Logo_01.png" class="logo">
+    <br>
+    <p id="Bienvenida"></p>
+    <div>
+    <input id="Nombre_sala" type="text">
+    </div>
+    <button id="Añadir_sala" onclick="addRoom()">Añadir sala</button>
+    <h4 id="Salas"></h4>
+    </center>
+    <script src="Kwitter_room.js"></script>
+</body>
+</html>
